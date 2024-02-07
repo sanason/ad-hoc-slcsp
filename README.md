@@ -1,8 +1,8 @@
 # Overview
 
 The script `slcsp.py` is a solution to the problem described [here](./input/README.md). The problem comes from
-[Ad Hoc](https://homework.adhoc.team/slcsp/). Everything in the `input` directory comes from the "Included files" zip
-on that Ad Hoc page. All other files are my own.
+[Ad Hoc](https://homework.adhoc.team/slcsp/). Everything in the `input` directory is copied from the "Included files" zip
+on that Ad Hoc page. The `output` directory contains a copy of the output from running the script.
 
 # How to run
 
@@ -21,7 +21,11 @@ The script reads from input files in `./input` and writes its output to stdout (
 
 There are a few unit tests for the script in `test_slcsp.py`. They are meant to be run with pytest. 
 
-Assuming you have pipenv installed, the command to run the tests is:
+Assuming you have pipenv installed, the commands to run the test are:
 ```shell
+# Install dependencies
+pipenv install
+
+# Run the tests
 pipenv run pytest
 ```
